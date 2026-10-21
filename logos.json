@@ -1,0 +1,119 @@
+{
+  "assets": [
+    {
+      "name": "rachis-logo",
+      "source": "sources/vector/rachis-logo.svg",
+      "description": "Horizontal wordmark",
+      "widths": [
+        100,
+        200,
+        400,
+        800,
+        1600,
+        3200
+      ],
+      "type": "wordmark",
+      "bw_lightmode": {
+        "fill": "#000000",
+        "stroke": "#000000"
+      },
+      "bw_darkmode": {
+        "fill": "#ffffff",
+        "stroke": "#ffffff"
+      },
+      "darkmode": {
+        "fill": "#f7f8f8",
+        "stroke": "#0d99ff"
+      },
+      "lightmode": {
+        "fill": "#000000",
+        "stroke": "#1c404b"
+      }
+    },
+    {
+      "name": "rachis-stamp",
+      "source": "sources/vector/rachis-stamp.svg",
+      "description": "Open symbol with generous spacing",
+      "widths": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024
+      ],
+      "type": "stamp",
+      "bw_lightmode": {
+        "fill": "none",
+        "stroke": "#000000"
+      },
+      "bw_darkmode": {
+        "fill": "none",
+        "stroke": "#ffffff"
+      },
+      "darkmode": {
+        "fill": "none",
+        "stroke": "#ffffff"
+      },
+      "lightmode": {
+        "fill": "none",
+        "stroke": "#1a414c"
+      }
+    },
+    {
+      "name": "rachis-favicon",
+      "source": "sources/vector/rachis-favicon.svg",
+      "description": "Website favicon and app icon symbol",
+      "widths": [
+        16,
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "type": "favicon",
+      "bw_lightmode": {
+        "fill": "none",
+        "stroke": "#000000"
+      },
+      "bw_darkmode": {
+        "fill": "none",
+        "stroke": "#ffffff"
+      },
+      "darkmode": {
+        "fill": "none",
+        "stroke": "#ffffff"
+      },
+      "lightmode": {
+        "fill": "none",
+        "stroke": "#1a414c"
+      }
+    }
+  ],
+  "icons": {
+    "asset": "rachis-favicon",
+    "icoSizes": [
+      16,
+      32,
+      48,
+      64,
+      128,
+      256
+    ],
+    "pngSizes": [
+      16,
+      32,
+      48,
+      64,
+      128,
+      180,
+      192,
+      256,
+      512
+    ],
+    "appBackground": "#ffffff",
+    "appPadding": 0.125
+  },
+  "referencePng": "sources/raster/rachis-logo.png"
+}

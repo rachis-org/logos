@@ -1,0 +1,1805 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "preview.html",
+      "bytes": 6850,
+      "sha256": "54695d5800d09bcae40aad3e57383b32b61c1c0e89a3a3b835ad0d9616cbdbfc"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/black/rachis-favicon-128.png",
+      "bytes": 2290,
+      "sha256": "5cbedb88d920d9c6f13cfc1651cdddb55cb13427d05286d675093623b61c3080"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/black/rachis-favicon-128.tiff",
+      "bytes": 2824,
+      "sha256": "555103c05af909a92d531c200aa4ed0c34238be4d678ce25ec446db199032737"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/black/rachis-favicon-16.png",
+      "bytes": 322,
+      "sha256": "ce42daf69c3d93e78f899b1fc67b4d0476df931078935364c32cf482e83fbf06"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/black/rachis-favicon-16.tiff",
+      "bytes": 466,
+      "sha256": "5a259afe288f3f2021ea0113f3d88a69449ac5d629e7df33a14cb0ee2fcb9995"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/black/rachis-favicon-256.png",
+      "bytes": 4592,
+      "sha256": "60f0b78797fca5b4f0e0e49539f900b0b8c8e95e2d79e039b854fa17a79f1425"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/black/rachis-favicon-256.tiff",
+      "bytes": 4980,
+      "sha256": "829e53ea990ad9b424e32b5ea6e2b09d57bc78d5a18f34195571f7434b205908"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/black/rachis-favicon-32.png",
+      "bytes": 572,
+      "sha256": "2670c63ab81bc48f9cc11006e623eb22ecf179cee45f5b2aa8812c31eb31293f"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/black/rachis-favicon-32.tiff",
+      "bytes": 790,
+      "sha256": "a163e501a6c9bb4c8be5f674a77f7e21986377088e3bbc96ccda0d44aea718b9"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/black/rachis-favicon-512.png",
+      "bytes": 12338,
+      "sha256": "9ccdaee237633465a0d9b253a80ef97537f337c82857f75f58cc77355ed8bc1f"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/black/rachis-favicon-512.tiff",
+      "bytes": 11930,
+      "sha256": "540d052426e8b7473137da1d0d24fbf2d1d8218c52db242ccee807e890e9997b"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/black/rachis-favicon-64.png",
+      "bytes": 1159,
+      "sha256": "0ae38a8c14bfc2d0ec5eea351e404960dd376920bb330b56899ca8e8a4196581"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/black/rachis-favicon-64.tiff",
+      "bytes": 1432,
+      "sha256": "f7fd573ab1bd787171a2a4418cd8c4b7ea035b6d6a46279508b902cf528ecd3d"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/transparent/rachis-favicon-128.png",
+      "bytes": 1737,
+      "sha256": "be77db80ff272b541ae1984d845336ea7e8c3d5c9f69106455c1d8980f3701e6"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/transparent/rachis-favicon-128.tiff",
+      "bytes": 2830,
+      "sha256": "4aaea42cd330f71df2abffe30f3fda283bf9c75a21adcefe11cbde7033a45afb"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/transparent/rachis-favicon-16.png",
+      "bytes": 272,
+      "sha256": "cbf589b724e2030a2f391b4055018cbc6089bf47a1ef99ba7335f621adb4181f"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/transparent/rachis-favicon-16.tiff",
+      "bytes": 484,
+      "sha256": "fe7d2c041b15f9a6b1ecbaa41bc4cba585c1e82f2d7b3894872bb45da962086f"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/transparent/rachis-favicon-256.png",
+      "bytes": 3586,
+      "sha256": "e6e5c44252c06f2e3c79a3cd9b67c0fd9c1b565101d16f4deb9483aeeb3c76d3"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/transparent/rachis-favicon-256.tiff",
+      "bytes": 5536,
+      "sha256": "f2c218ec83f25263d1cc7be71c6c2af7da99b6ba2f1141344e213999555d53f1"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/transparent/rachis-favicon-32.png",
+      "bytes": 458,
+      "sha256": "3e89d2da9b583923da847f09a9b9ee7dbaef40d4b6137b5c3e50638672d77642"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/transparent/rachis-favicon-32.tiff",
+      "bytes": 786,
+      "sha256": "2ff480a8655680ed77b7861fcd74864f708a0a3f5d1b319ad5d03406b5146a66"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/transparent/rachis-favicon-512.png",
+      "bytes": 9703,
+      "sha256": "0379f9d74425892f38e90c48ee76d184a2efb6a6a7bc7285394117e4a59a0a45"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/transparent/rachis-favicon-512.tiff",
+      "bytes": 14098,
+      "sha256": "00638d41610361aa8bf456ff38593d9e071c400ac063c7536276039e6a050a4f"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/transparent/rachis-favicon-64.png",
+      "bytes": 864,
+      "sha256": "26f3c5278b98504c01dcfffdb99888f522756d432ddc3b3c8ef4cca158aa3968"
+    },
+    {
+      "path": "raster/favicon/bw_darkmode/transparent/rachis-favicon-64.tiff",
+      "bytes": 1434,
+      "sha256": "057be1dbf288e7daef07f9c2afc43108db4f2fd24c67d6ca56e25376f35894eb"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/transparent/rachis-favicon-128.png",
+      "bytes": 1710,
+      "sha256": "d4cb7fab554fc172556a064b81fee95170558cb4abcc76343fdff42a25741c84"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/transparent/rachis-favicon-128.tiff",
+      "bytes": 2596,
+      "sha256": "9e53187a89c7afe342d5334af1c0d51fe861cbb27ec3a979f8796c4f976466ce"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/transparent/rachis-favicon-16.png",
+      "bytes": 262,
+      "sha256": "99dd016d3a712ab0a1e623dee56f1de5c2e8e7c41243129b8372865a94de5e6a"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/transparent/rachis-favicon-16.tiff",
+      "bytes": 462,
+      "sha256": "be486a75948ebc31b897c00e63e592325cff76146550ce30ce3b5e830944dc4c"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/transparent/rachis-favicon-256.png",
+      "bytes": 3634,
+      "sha256": "93ae97a1d121d2ef81f92594e4128aa20fa4ee94f75104f4bfbf96ca6fcfc312"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/transparent/rachis-favicon-256.tiff",
+      "bytes": 4908,
+      "sha256": "8dc17ab7c1e3ab90c4911bf0949892a4d364ac1595ba0bc06d49c9bd996d47ee"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/transparent/rachis-favicon-32.png",
+      "bytes": 445,
+      "sha256": "cd836b3b454f581194c6542964ff5996bbbd28fbc882d0da5f3b528baadbf882"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/transparent/rachis-favicon-32.tiff",
+      "bytes": 744,
+      "sha256": "2b39e82c1ca9c185d6b90509c47ea620eb1665c6a792cff980b28f57c3f3231a"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/transparent/rachis-favicon-512.png",
+      "bytes": 9869,
+      "sha256": "cb6d2679b0f3aeff1b7867d7cbdaf068514a42279eb02c0c8a84b383b49c8129"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/transparent/rachis-favicon-512.tiff",
+      "bytes": 11946,
+      "sha256": "c3dc3d8ffb2dd68811eac3aeccabf05a8bcc226304821988f4e975af243d5dcb"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/transparent/rachis-favicon-64.png",
+      "bytes": 843,
+      "sha256": "3615cbd466d51522c124335cfb8f79e1f695dfd3ad002c6fdf6205a01ce4270f"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/transparent/rachis-favicon-64.tiff",
+      "bytes": 1320,
+      "sha256": "afe7b2af9e910725cd5a891a1c193c1c6ad988dc149fc13abe548719738a6ee0"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/white/rachis-favicon-128.png",
+      "bytes": 2516,
+      "sha256": "1e8f636e67cda04e1cae956ea323e7f102aadd19e76e21a95bb443fd83a2ce94"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/white/rachis-favicon-128.tiff",
+      "bytes": 3106,
+      "sha256": "0ac0b6e95dd8171ad2cd6f701e7b11425dfd14b64ca99d759e7f0533bfdb7abf"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/white/rachis-favicon-16.png",
+      "bytes": 325,
+      "sha256": "60f76ff483506aa410b98de84f83f2c9f14a25b4687177db96af976934122e3d"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/white/rachis-favicon-16.tiff",
+      "bytes": 492,
+      "sha256": "2fc9ebaa1f446033141e99a986f5a80b7669edfef981cc8190479fc779f94d2c"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/white/rachis-favicon-256.png",
+      "bytes": 5151,
+      "sha256": "8073de0fcfe9196bfe02f265e6fbe3f44a1d30314130f8d392e290826521f243"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/white/rachis-favicon-256.tiff",
+      "bytes": 5972,
+      "sha256": "002cfa235aa9444d52b6e1cbc34246be2e621caaff35db596c7e77338f5b06b1"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/white/rachis-favicon-32.png",
+      "bytes": 595,
+      "sha256": "90be330c79c50aec6cb5e7c26ba9b46bb8603336bc7f6f5f308aa9acf03b17ac"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/white/rachis-favicon-32.tiff",
+      "bytes": 850,
+      "sha256": "8502c52c91997438504d4ffde176b1e88fa960d8e32a2c1f58d0bd4eab5dc5d8"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/white/rachis-favicon-512.png",
+      "bytes": 13539,
+      "sha256": "6b84ecbe3c21d3849fffc4e291ec16d9e85b8b3cc28b1104fd8abd2eb14d5d6b"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/white/rachis-favicon-512.tiff",
+      "bytes": 13170,
+      "sha256": "c30028cec2195965e5868c040f34123552372b0f327ff17d397e46a4c6386a10"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/white/rachis-favicon-64.png",
+      "bytes": 1245,
+      "sha256": "41d98aab85e35410fe3e2e33d8d9d8f029d8b5e2415d6551841cbbe29147cdf5"
+    },
+    {
+      "path": "raster/favicon/bw_lightmode/white/rachis-favicon-64.tiff",
+      "bytes": 1570,
+      "sha256": "a6919c03176c4cc282fc91779b500c3771960444096b4fe1622f96fca87eaaa2"
+    },
+    {
+      "path": "raster/favicon/darkmode/black/rachis-favicon-128.png",
+      "bytes": 2290,
+      "sha256": "5cbedb88d920d9c6f13cfc1651cdddb55cb13427d05286d675093623b61c3080"
+    },
+    {
+      "path": "raster/favicon/darkmode/black/rachis-favicon-128.tiff",
+      "bytes": 2824,
+      "sha256": "555103c05af909a92d531c200aa4ed0c34238be4d678ce25ec446db199032737"
+    },
+    {
+      "path": "raster/favicon/darkmode/black/rachis-favicon-16.png",
+      "bytes": 322,
+      "sha256": "ce42daf69c3d93e78f899b1fc67b4d0476df931078935364c32cf482e83fbf06"
+    },
+    {
+      "path": "raster/favicon/darkmode/black/rachis-favicon-16.tiff",
+      "bytes": 466,
+      "sha256": "5a259afe288f3f2021ea0113f3d88a69449ac5d629e7df33a14cb0ee2fcb9995"
+    },
+    {
+      "path": "raster/favicon/darkmode/black/rachis-favicon-256.png",
+      "bytes": 4592,
+      "sha256": "60f0b78797fca5b4f0e0e49539f900b0b8c8e95e2d79e039b854fa17a79f1425"
+    },
+    {
+      "path": "raster/favicon/darkmode/black/rachis-favicon-256.tiff",
+      "bytes": 4980,
+      "sha256": "829e53ea990ad9b424e32b5ea6e2b09d57bc78d5a18f34195571f7434b205908"
+    },
+    {
+      "path": "raster/favicon/darkmode/black/rachis-favicon-32.png",
+      "bytes": 572,
+      "sha256": "2670c63ab81bc48f9cc11006e623eb22ecf179cee45f5b2aa8812c31eb31293f"
+    },
+    {
+      "path": "raster/favicon/darkmode/black/rachis-favicon-32.tiff",
+      "bytes": 790,
+      "sha256": "a163e501a6c9bb4c8be5f674a77f7e21986377088e3bbc96ccda0d44aea718b9"
+    },
+    {
+      "path": "raster/favicon/darkmode/black/rachis-favicon-512.png",
+      "bytes": 12338,
+      "sha256": "9ccdaee237633465a0d9b253a80ef97537f337c82857f75f58cc77355ed8bc1f"
+    },
+    {
+      "path": "raster/favicon/darkmode/black/rachis-favicon-512.tiff",
+      "bytes": 11930,
+      "sha256": "540d052426e8b7473137da1d0d24fbf2d1d8218c52db242ccee807e890e9997b"
+    },
+    {
+      "path": "raster/favicon/darkmode/black/rachis-favicon-64.png",
+      "bytes": 1159,
+      "sha256": "0ae38a8c14bfc2d0ec5eea351e404960dd376920bb330b56899ca8e8a4196581"
+    },
+    {
+      "path": "raster/favicon/darkmode/black/rachis-favicon-64.tiff",
+      "bytes": 1432,
+      "sha256": "f7fd573ab1bd787171a2a4418cd8c4b7ea035b6d6a46279508b902cf528ecd3d"
+    },
+    {
+      "path": "raster/favicon/darkmode/transparent/rachis-favicon-128.png",
+      "bytes": 1737,
+      "sha256": "be77db80ff272b541ae1984d845336ea7e8c3d5c9f69106455c1d8980f3701e6"
+    },
+    {
+      "path": "raster/favicon/darkmode/transparent/rachis-favicon-128.tiff",
+      "bytes": 2830,
+      "sha256": "4aaea42cd330f71df2abffe30f3fda283bf9c75a21adcefe11cbde7033a45afb"
+    },
+    {
+      "path": "raster/favicon/darkmode/transparent/rachis-favicon-16.png",
+      "bytes": 272,
+      "sha256": "cbf589b724e2030a2f391b4055018cbc6089bf47a1ef99ba7335f621adb4181f"
+    },
+    {
+      "path": "raster/favicon/darkmode/transparent/rachis-favicon-16.tiff",
+      "bytes": 484,
+      "sha256": "fe7d2c041b15f9a6b1ecbaa41bc4cba585c1e82f2d7b3894872bb45da962086f"
+    },
+    {
+      "path": "raster/favicon/darkmode/transparent/rachis-favicon-256.png",
+      "bytes": 3586,
+      "sha256": "e6e5c44252c06f2e3c79a3cd9b67c0fd9c1b565101d16f4deb9483aeeb3c76d3"
+    },
+    {
+      "path": "raster/favicon/darkmode/transparent/rachis-favicon-256.tiff",
+      "bytes": 5536,
+      "sha256": "f2c218ec83f25263d1cc7be71c6c2af7da99b6ba2f1141344e213999555d53f1"
+    },
+    {
+      "path": "raster/favicon/darkmode/transparent/rachis-favicon-32.png",
+      "bytes": 458,
+      "sha256": "3e89d2da9b583923da847f09a9b9ee7dbaef40d4b6137b5c3e50638672d77642"
+    },
+    {
+      "path": "raster/favicon/darkmode/transparent/rachis-favicon-32.tiff",
+      "bytes": 786,
+      "sha256": "2ff480a8655680ed77b7861fcd74864f708a0a3f5d1b319ad5d03406b5146a66"
+    },
+    {
+      "path": "raster/favicon/darkmode/transparent/rachis-favicon-512.png",
+      "bytes": 9703,
+      "sha256": "0379f9d74425892f38e90c48ee76d184a2efb6a6a7bc7285394117e4a59a0a45"
+    },
+    {
+      "path": "raster/favicon/darkmode/transparent/rachis-favicon-512.tiff",
+      "bytes": 14098,
+      "sha256": "00638d41610361aa8bf456ff38593d9e071c400ac063c7536276039e6a050a4f"
+    },
+    {
+      "path": "raster/favicon/darkmode/transparent/rachis-favicon-64.png",
+      "bytes": 864,
+      "sha256": "26f3c5278b98504c01dcfffdb99888f522756d432ddc3b3c8ef4cca158aa3968"
+    },
+    {
+      "path": "raster/favicon/darkmode/transparent/rachis-favicon-64.tiff",
+      "bytes": 1434,
+      "sha256": "057be1dbf288e7daef07f9c2afc43108db4f2fd24c67d6ca56e25376f35894eb"
+    },
+    {
+      "path": "raster/favicon/lightmode/transparent/rachis-favicon-128.png",
+      "bytes": 2229,
+      "sha256": "f1a3d6fb71d883791cbeb3ed573fcb5a9f2fe459779edf44de12c81850f0f6c6"
+    },
+    {
+      "path": "raster/favicon/lightmode/transparent/rachis-favicon-128.tiff",
+      "bytes": 3840,
+      "sha256": "b3e91fc9e2f9071aa162fe0dffe4fb9ec224d5cd9b8787a56b9c2fac5d0d404f"
+    },
+    {
+      "path": "raster/favicon/lightmode/transparent/rachis-favicon-16.png",
+      "bytes": 349,
+      "sha256": "bbe3287cf4d25af1f50a3b3f3d44104631b4844090db3f986eb6d680b6af5065"
+    },
+    {
+      "path": "raster/favicon/lightmode/transparent/rachis-favicon-16.tiff",
+      "bytes": 622,
+      "sha256": "f8f3c0479f544209ab596b0bc1e7812ebd790ca403c4751a8bb042e7ed75bac1"
+    },
+    {
+      "path": "raster/favicon/lightmode/transparent/rachis-favicon-256.png",
+      "bytes": 4672,
+      "sha256": "e94708bcdb866543e8e8aebd718424b254215624ab29281181351925e9fb2b4a"
+    },
+    {
+      "path": "raster/favicon/lightmode/transparent/rachis-favicon-256.tiff",
+      "bytes": 7374,
+      "sha256": "c7ff352633f0659848ad83ac1f667a4368063db33e0a9f034da080800ce8acbb"
+    },
+    {
+      "path": "raster/favicon/lightmode/transparent/rachis-favicon-32.png",
+      "bytes": 600,
+      "sha256": "33bdbf2fa13693ce226b344fe48ad58d18574f79dcf107fd9c86031fb12e36dc"
+    },
+    {
+      "path": "raster/favicon/lightmode/transparent/rachis-favicon-32.tiff",
+      "bytes": 1052,
+      "sha256": "4f52226a28775ba0d0ac11d3270fd4e04a0a154cc06c3d07fd9e10a01da1790b"
+    },
+    {
+      "path": "raster/favicon/lightmode/transparent/rachis-favicon-512.png",
+      "bytes": 14840,
+      "sha256": "672895d17b715c4a64016b984cdd54ae2e2fe571d55ab80a528cd950298f3ec0"
+    },
+    {
+      "path": "raster/favicon/lightmode/transparent/rachis-favicon-512.tiff",
+      "bytes": 22848,
+      "sha256": "8d079aa96b86fe3870135d6f25c28e9046483516bca13c72e00cb52ee88c018e"
+    },
+    {
+      "path": "raster/favicon/lightmode/transparent/rachis-favicon-64.png",
+      "bytes": 1127,
+      "sha256": "8ae1d270133dc2b8947ccc4314799c1480d9eb86df7f4113213c6aa1137dc09a"
+    },
+    {
+      "path": "raster/favicon/lightmode/transparent/rachis-favicon-64.tiff",
+      "bytes": 1910,
+      "sha256": "d67fcd6f7bdf78ea6d14225ff49b93172c2ed81380781f2234e190e42bda9675"
+    },
+    {
+      "path": "raster/favicon/lightmode/white/rachis-favicon-128.png",
+      "bytes": 2517,
+      "sha256": "caae0ec525823f167be764cb3e653c6e870a23b73c9336fa594f1b596ad556fa"
+    },
+    {
+      "path": "raster/favicon/lightmode/white/rachis-favicon-128.tiff",
+      "bytes": 3910,
+      "sha256": "6d1533cc28b9ac8e6202372ac2a6d150526b6d43c1d6bfb6f5d049025e251dfb"
+    },
+    {
+      "path": "raster/favicon/lightmode/white/rachis-favicon-16.png",
+      "bytes": 341,
+      "sha256": "b5e41a397fcb7b09f2f0b06eb95697fba49552c7ff1ee9469c8961a65cd0a5c2"
+    },
+    {
+      "path": "raster/favicon/lightmode/white/rachis-favicon-16.tiff",
+      "bytes": 580,
+      "sha256": "6b107ca95e0a8c6baef414d72f0359db0ddba1331969842219e251f94928927d"
+    },
+    {
+      "path": "raster/favicon/lightmode/white/rachis-favicon-256.png",
+      "bytes": 5217,
+      "sha256": "490d51bbcb83c83f7d112fb02cfbff8bf8f961743098da41c6b570c5715296de"
+    },
+    {
+      "path": "raster/favicon/lightmode/white/rachis-favicon-256.tiff",
+      "bytes": 7506,
+      "sha256": "473bd74905634fca78176f30cc35e7f0e2e02190aa9b890c0d6d53e6a8761031"
+    },
+    {
+      "path": "raster/favicon/lightmode/white/rachis-favicon-32.png",
+      "bytes": 618,
+      "sha256": "d7c53607a220576edfe349fd26908ebda551345c23fa8211673d84433484f3fc"
+    },
+    {
+      "path": "raster/favicon/lightmode/white/rachis-favicon-32.tiff",
+      "bytes": 1026,
+      "sha256": "ba7ef8611c40f071c5b7c5b5b267532727370add7cb23e37a7c58ea356dda667"
+    },
+    {
+      "path": "raster/favicon/lightmode/white/rachis-favicon-512.png",
+      "bytes": 16399,
+      "sha256": "f0211152ad41bf48aa37ffe999563cdfbfac66fda60cb6bb577832f62d52dcce"
+    },
+    {
+      "path": "raster/favicon/lightmode/white/rachis-favicon-512.tiff",
+      "bytes": 21184,
+      "sha256": "b43c816dfd5c052978ebf4d92648b8374d2cbd40812819084e1bcba639b3f2f6"
+    },
+    {
+      "path": "raster/favicon/lightmode/white/rachis-favicon-64.png",
+      "bytes": 1289,
+      "sha256": "3bfd7521541ed9370a1cbe07438dbf0bf1bc8f156038a13cffcc1a7159b40501"
+    },
+    {
+      "path": "raster/favicon/lightmode/white/rachis-favicon-64.tiff",
+      "bytes": 1964,
+      "sha256": "c183a69c74876af8e1f02f23adda19769ea680044e3f3338398e757430c78453"
+    },
+    {
+      "path": "raster/icons/apple-touch-icon.png",
+      "bytes": 2808,
+      "sha256": "080593fee255bb1de58ba8a10b0f7f9b8867c4970ac6914179e130a612d9cb7d"
+    },
+    {
+      "path": "raster/icons/bw_darkmode/favicon-128.png",
+      "bytes": 1737,
+      "sha256": "be77db80ff272b541ae1984d845336ea7e8c3d5c9f69106455c1d8980f3701e6"
+    },
+    {
+      "path": "raster/icons/bw_darkmode/favicon-16.png",
+      "bytes": 272,
+      "sha256": "cbf589b724e2030a2f391b4055018cbc6089bf47a1ef99ba7335f621adb4181f"
+    },
+    {
+      "path": "raster/icons/bw_darkmode/favicon-180.png",
+      "bytes": 2440,
+      "sha256": "4e23b9a370ef8c3b467e6a0b053c19d6f668a76aab0d57e85134683e1efe3ba1"
+    },
+    {
+      "path": "raster/icons/bw_darkmode/favicon-192.png",
+      "bytes": 2623,
+      "sha256": "f6d0e10fa3dece0dcfb0d05b1f56924d1252845cebc0314618086adb95538581"
+    },
+    {
+      "path": "raster/icons/bw_darkmode/favicon-256.png",
+      "bytes": 3586,
+      "sha256": "e6e5c44252c06f2e3c79a3cd9b67c0fd9c1b565101d16f4deb9483aeeb3c76d3"
+    },
+    {
+      "path": "raster/icons/bw_darkmode/favicon-32.png",
+      "bytes": 458,
+      "sha256": "3e89d2da9b583923da847f09a9b9ee7dbaef40d4b6137b5c3e50638672d77642"
+    },
+    {
+      "path": "raster/icons/bw_darkmode/favicon-48.png",
+      "bytes": 683,
+      "sha256": "60bf99e3afd10df59ffb7aa4aa73ae93f815816304937b645808ac1ebf9152d5"
+    },
+    {
+      "path": "raster/icons/bw_darkmode/favicon-512.png",
+      "bytes": 9703,
+      "sha256": "0379f9d74425892f38e90c48ee76d184a2efb6a6a7bc7285394117e4a59a0a45"
+    },
+    {
+      "path": "raster/icons/bw_darkmode/favicon-64.png",
+      "bytes": 864,
+      "sha256": "26f3c5278b98504c01dcfffdb99888f522756d432ddc3b3c8ef4cca158aa3968"
+    },
+    {
+      "path": "raster/icons/bw_darkmode/favicon.ico",
+      "bytes": 7702,
+      "sha256": "efc31e716a483214b5ebd50c4cff3f4fbac79b56a9238335530713b41ae3a7c0"
+    },
+    {
+      "path": "raster/icons/bw_lightmode/favicon-128.png",
+      "bytes": 1710,
+      "sha256": "d4cb7fab554fc172556a064b81fee95170558cb4abcc76343fdff42a25741c84"
+    },
+    {
+      "path": "raster/icons/bw_lightmode/favicon-16.png",
+      "bytes": 262,
+      "sha256": "99dd016d3a712ab0a1e623dee56f1de5c2e8e7c41243129b8372865a94de5e6a"
+    },
+    {
+      "path": "raster/icons/bw_lightmode/favicon-180.png",
+      "bytes": 2450,
+      "sha256": "12498c2b5cea9ecf54ef2262bac5bb67db47af5443d21c6ab86aef5bb7499fc4"
+    },
+    {
+      "path": "raster/icons/bw_lightmode/favicon-192.png",
+      "bytes": 2641,
+      "sha256": "9a4cf1721e6b303eec8fb292b1260b57eeb57b464f17f9bd765b7ba4682519db"
+    },
+    {
+      "path": "raster/icons/bw_lightmode/favicon-256.png",
+      "bytes": 3634,
+      "sha256": "93ae97a1d121d2ef81f92594e4128aa20fa4ee94f75104f4bfbf96ca6fcfc312"
+    },
+    {
+      "path": "raster/icons/bw_lightmode/favicon-32.png",
+      "bytes": 445,
+      "sha256": "cd836b3b454f581194c6542964ff5996bbbd28fbc882d0da5f3b528baadbf882"
+    },
+    {
+      "path": "raster/icons/bw_lightmode/favicon-48.png",
+      "bytes": 646,
+      "sha256": "d949ea71cfb73b481b51277482bb5c2fd943d9993593b52b675ccade8ff32306"
+    },
+    {
+      "path": "raster/icons/bw_lightmode/favicon-512.png",
+      "bytes": 9869,
+      "sha256": "cb6d2679b0f3aeff1b7867d7cbdaf068514a42279eb02c0c8a84b383b49c8129"
+    },
+    {
+      "path": "raster/icons/bw_lightmode/favicon-64.png",
+      "bytes": 843,
+      "sha256": "3615cbd466d51522c124335cfb8f79e1f695dfd3ad002c6fdf6205a01ce4270f"
+    },
+    {
+      "path": "raster/icons/bw_lightmode/favicon.ico",
+      "bytes": 7642,
+      "sha256": "e19e6790a652415fd01ef7c8a087f0695b8c3a801ff26e9a2c58512eb7054010"
+    },
+    {
+      "path": "raster/icons/darkmode/favicon-128.png",
+      "bytes": 1737,
+      "sha256": "be77db80ff272b541ae1984d845336ea7e8c3d5c9f69106455c1d8980f3701e6"
+    },
+    {
+      "path": "raster/icons/darkmode/favicon-16.png",
+      "bytes": 272,
+      "sha256": "cbf589b724e2030a2f391b4055018cbc6089bf47a1ef99ba7335f621adb4181f"
+    },
+    {
+      "path": "raster/icons/darkmode/favicon-180.png",
+      "bytes": 2440,
+      "sha256": "4e23b9a370ef8c3b467e6a0b053c19d6f668a76aab0d57e85134683e1efe3ba1"
+    },
+    {
+      "path": "raster/icons/darkmode/favicon-192.png",
+      "bytes": 2623,
+      "sha256": "f6d0e10fa3dece0dcfb0d05b1f56924d1252845cebc0314618086adb95538581"
+    },
+    {
+      "path": "raster/icons/darkmode/favicon-256.png",
+      "bytes": 3586,
+      "sha256": "e6e5c44252c06f2e3c79a3cd9b67c0fd9c1b565101d16f4deb9483aeeb3c76d3"
+    },
+    {
+      "path": "raster/icons/darkmode/favicon-32.png",
+      "bytes": 458,
+      "sha256": "3e89d2da9b583923da847f09a9b9ee7dbaef40d4b6137b5c3e50638672d77642"
+    },
+    {
+      "path": "raster/icons/darkmode/favicon-48.png",
+      "bytes": 683,
+      "sha256": "60bf99e3afd10df59ffb7aa4aa73ae93f815816304937b645808ac1ebf9152d5"
+    },
+    {
+      "path": "raster/icons/darkmode/favicon-512.png",
+      "bytes": 9703,
+      "sha256": "0379f9d74425892f38e90c48ee76d184a2efb6a6a7bc7285394117e4a59a0a45"
+    },
+    {
+      "path": "raster/icons/darkmode/favicon-64.png",
+      "bytes": 864,
+      "sha256": "26f3c5278b98504c01dcfffdb99888f522756d432ddc3b3c8ef4cca158aa3968"
+    },
+    {
+      "path": "raster/icons/darkmode/favicon.ico",
+      "bytes": 7702,
+      "sha256": "efc31e716a483214b5ebd50c4cff3f4fbac79b56a9238335530713b41ae3a7c0"
+    },
+    {
+      "path": "raster/icons/favicon.ico",
+      "bytes": 9951,
+      "sha256": "325284897d04d05cee2564d1de496517adc445a14ebb8c3aae69ddccd75f0b4a"
+    },
+    {
+      "path": "raster/icons/favicon.svg",
+      "bytes": 1261,
+      "sha256": "1a8422203d3a718dc289dbea258c3f0f1e3f82600881284638312e94b1c8d218"
+    },
+    {
+      "path": "raster/icons/icon-192.png",
+      "bytes": 3006,
+      "sha256": "99e3fc9a6c8ee53f00ac580cf48ab182f9a0368693fe8c138a7f04eefc720dbb"
+    },
+    {
+      "path": "raster/icons/icon-512.png",
+      "bytes": 9773,
+      "sha256": "b262f270d1e9e27a5baddac108a189656913490faee5702e02b50f5083d11c7a"
+    },
+    {
+      "path": "raster/icons/lightmode/favicon-128.png",
+      "bytes": 2229,
+      "sha256": "f1a3d6fb71d883791cbeb3ed573fcb5a9f2fe459779edf44de12c81850f0f6c6"
+    },
+    {
+      "path": "raster/icons/lightmode/favicon-16.png",
+      "bytes": 349,
+      "sha256": "bbe3287cf4d25af1f50a3b3f3d44104631b4844090db3f986eb6d680b6af5065"
+    },
+    {
+      "path": "raster/icons/lightmode/favicon-180.png",
+      "bytes": 3133,
+      "sha256": "07f1733b3790bb3115a402066329e8d8e311cfd03af1b8ad9443879b7069e0de"
+    },
+    {
+      "path": "raster/icons/lightmode/favicon-192.png",
+      "bytes": 3370,
+      "sha256": "a1132a20c09a4d07827daaacfc57a315f69aef6a6745baefaf600928106303af"
+    },
+    {
+      "path": "raster/icons/lightmode/favicon-256.png",
+      "bytes": 4672,
+      "sha256": "e94708bcdb866543e8e8aebd718424b254215624ab29281181351925e9fb2b4a"
+    },
+    {
+      "path": "raster/icons/lightmode/favicon-32.png",
+      "bytes": 600,
+      "sha256": "33bdbf2fa13693ce226b344fe48ad58d18574f79dcf107fd9c86031fb12e36dc"
+    },
+    {
+      "path": "raster/icons/lightmode/favicon-48.png",
+      "bytes": 872,
+      "sha256": "6fe565bc0ae5a31644f80dce4c75bc75540a46b6883f19210f75b04ee56d68df"
+    },
+    {
+      "path": "raster/icons/lightmode/favicon-512.png",
+      "bytes": 14840,
+      "sha256": "672895d17b715c4a64016b984cdd54ae2e2fe571d55ab80a528cd950298f3ec0"
+    },
+    {
+      "path": "raster/icons/lightmode/favicon-64.png",
+      "bytes": 1127,
+      "sha256": "8ae1d270133dc2b8947ccc4314799c1480d9eb86df7f4113213c6aa1137dc09a"
+    },
+    {
+      "path": "raster/icons/lightmode/favicon.ico",
+      "bytes": 9951,
+      "sha256": "325284897d04d05cee2564d1de496517adc445a14ebb8c3aae69ddccd75f0b4a"
+    },
+    {
+      "path": "raster/icons/rachis.iconset/icon_128x128.png",
+      "bytes": 2229,
+      "sha256": "f1a3d6fb71d883791cbeb3ed573fcb5a9f2fe459779edf44de12c81850f0f6c6"
+    },
+    {
+      "path": "raster/icons/rachis.iconset/icon_128x128@2x.png",
+      "bytes": 4672,
+      "sha256": "e94708bcdb866543e8e8aebd718424b254215624ab29281181351925e9fb2b4a"
+    },
+    {
+      "path": "raster/icons/rachis.iconset/icon_16x16.png",
+      "bytes": 349,
+      "sha256": "bbe3287cf4d25af1f50a3b3f3d44104631b4844090db3f986eb6d680b6af5065"
+    },
+    {
+      "path": "raster/icons/rachis.iconset/icon_16x16@2x.png",
+      "bytes": 600,
+      "sha256": "33bdbf2fa13693ce226b344fe48ad58d18574f79dcf107fd9c86031fb12e36dc"
+    },
+    {
+      "path": "raster/icons/rachis.iconset/icon_256x256.png",
+      "bytes": 4672,
+      "sha256": "e94708bcdb866543e8e8aebd718424b254215624ab29281181351925e9fb2b4a"
+    },
+    {
+      "path": "raster/icons/rachis.iconset/icon_256x256@2x.png",
+      "bytes": 14840,
+      "sha256": "672895d17b715c4a64016b984cdd54ae2e2fe571d55ab80a528cd950298f3ec0"
+    },
+    {
+      "path": "raster/icons/rachis.iconset/icon_32x32.png",
+      "bytes": 600,
+      "sha256": "33bdbf2fa13693ce226b344fe48ad58d18574f79dcf107fd9c86031fb12e36dc"
+    },
+    {
+      "path": "raster/icons/rachis.iconset/icon_32x32@2x.png",
+      "bytes": 1127,
+      "sha256": "8ae1d270133dc2b8947ccc4314799c1480d9eb86df7f4113213c6aa1137dc09a"
+    },
+    {
+      "path": "raster/icons/rachis.iconset/icon_512x512.png",
+      "bytes": 14840,
+      "sha256": "672895d17b715c4a64016b984cdd54ae2e2fe571d55ab80a528cd950298f3ec0"
+    },
+    {
+      "path": "raster/icons/rachis.iconset/icon_512x512@2x.png",
+      "bytes": 35449,
+      "sha256": "8bf8fea7ebeba8ea80753caf3ad0c46e617ee118fa3e3a89d83ef64ff93286be"
+    },
+    {
+      "path": "raster/icons/site.webmanifest",
+      "bytes": 390,
+      "sha256": "553531bb8b3dcd5984df50ee618bea7beed678147a83e25fd68b4a1c88a5739e"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/black/rachis-stamp-1024.png",
+      "bytes": 27080,
+      "sha256": "231072f6e473fe74d510b508822251a55122543ca6b63c4893746f4e76ec210c"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/black/rachis-stamp-1024.tiff",
+      "bytes": 27646,
+      "sha256": "23d3a3849263e18b5eebc30d74c8f04a31ff99e18c72d8d6eb61464507a54e38"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/black/rachis-stamp-128.png",
+      "bytes": 2290,
+      "sha256": "5cbedb88d920d9c6f13cfc1651cdddb55cb13427d05286d675093623b61c3080"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/black/rachis-stamp-128.tiff",
+      "bytes": 2824,
+      "sha256": "555103c05af909a92d531c200aa4ed0c34238be4d678ce25ec446db199032737"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/black/rachis-stamp-256.png",
+      "bytes": 4592,
+      "sha256": "60f0b78797fca5b4f0e0e49539f900b0b8c8e95e2d79e039b854fa17a79f1425"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/black/rachis-stamp-256.tiff",
+      "bytes": 4980,
+      "sha256": "829e53ea990ad9b424e32b5ea6e2b09d57bc78d5a18f34195571f7434b205908"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/black/rachis-stamp-32.png",
+      "bytes": 572,
+      "sha256": "2670c63ab81bc48f9cc11006e623eb22ecf179cee45f5b2aa8812c31eb31293f"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/black/rachis-stamp-32.tiff",
+      "bytes": 790,
+      "sha256": "a163e501a6c9bb4c8be5f674a77f7e21986377088e3bbc96ccda0d44aea718b9"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/black/rachis-stamp-512.png",
+      "bytes": 12338,
+      "sha256": "9ccdaee237633465a0d9b253a80ef97537f337c82857f75f58cc77355ed8bc1f"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/black/rachis-stamp-512.tiff",
+      "bytes": 11930,
+      "sha256": "540d052426e8b7473137da1d0d24fbf2d1d8218c52db242ccee807e890e9997b"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/black/rachis-stamp-64.png",
+      "bytes": 1159,
+      "sha256": "0ae38a8c14bfc2d0ec5eea351e404960dd376920bb330b56899ca8e8a4196581"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/black/rachis-stamp-64.tiff",
+      "bytes": 1432,
+      "sha256": "f7fd573ab1bd787171a2a4418cd8c4b7ea035b6d6a46279508b902cf528ecd3d"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/transparent/rachis-stamp-1024.png",
+      "bytes": 22749,
+      "sha256": "55d42500e338f92d45ccc204d10f356903d1d214d491bfbac7e6357391f31b22"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/transparent/rachis-stamp-1024.tiff",
+      "bytes": 31630,
+      "sha256": "758307fb38ffd3f728f348474f8953c21d56ca047b32a34bec5f616f5a5c4655"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/transparent/rachis-stamp-128.png",
+      "bytes": 1737,
+      "sha256": "be77db80ff272b541ae1984d845336ea7e8c3d5c9f69106455c1d8980f3701e6"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/transparent/rachis-stamp-128.tiff",
+      "bytes": 2830,
+      "sha256": "4aaea42cd330f71df2abffe30f3fda283bf9c75a21adcefe11cbde7033a45afb"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/transparent/rachis-stamp-256.png",
+      "bytes": 3586,
+      "sha256": "e6e5c44252c06f2e3c79a3cd9b67c0fd9c1b565101d16f4deb9483aeeb3c76d3"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/transparent/rachis-stamp-256.tiff",
+      "bytes": 5536,
+      "sha256": "f2c218ec83f25263d1cc7be71c6c2af7da99b6ba2f1141344e213999555d53f1"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/transparent/rachis-stamp-32.png",
+      "bytes": 458,
+      "sha256": "3e89d2da9b583923da847f09a9b9ee7dbaef40d4b6137b5c3e50638672d77642"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/transparent/rachis-stamp-32.tiff",
+      "bytes": 786,
+      "sha256": "2ff480a8655680ed77b7861fcd74864f708a0a3f5d1b319ad5d03406b5146a66"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/transparent/rachis-stamp-512.png",
+      "bytes": 9703,
+      "sha256": "0379f9d74425892f38e90c48ee76d184a2efb6a6a7bc7285394117e4a59a0a45"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/transparent/rachis-stamp-512.tiff",
+      "bytes": 14098,
+      "sha256": "00638d41610361aa8bf456ff38593d9e071c400ac063c7536276039e6a050a4f"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/transparent/rachis-stamp-64.png",
+      "bytes": 864,
+      "sha256": "26f3c5278b98504c01dcfffdb99888f522756d432ddc3b3c8ef4cca158aa3968"
+    },
+    {
+      "path": "raster/stamp/bw_darkmode/transparent/rachis-stamp-64.tiff",
+      "bytes": 1434,
+      "sha256": "057be1dbf288e7daef07f9c2afc43108db4f2fd24c67d6ca56e25376f35894eb"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/transparent/rachis-stamp-1024.png",
+      "bytes": 24047,
+      "sha256": "aea39a0c770a70c3a59a00657899f588ff346b75cf9ec6915c30a48fcf209fd0"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/transparent/rachis-stamp-1024.tiff",
+      "bytes": 29288,
+      "sha256": "fe3e1f9db80bf9d9b4c0f055d20d8ca9afdd9b279039c9a164b8cefeee0b7ccf"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/transparent/rachis-stamp-128.png",
+      "bytes": 1710,
+      "sha256": "d4cb7fab554fc172556a064b81fee95170558cb4abcc76343fdff42a25741c84"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/transparent/rachis-stamp-128.tiff",
+      "bytes": 2596,
+      "sha256": "9e53187a89c7afe342d5334af1c0d51fe861cbb27ec3a979f8796c4f976466ce"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/transparent/rachis-stamp-256.png",
+      "bytes": 3634,
+      "sha256": "93ae97a1d121d2ef81f92594e4128aa20fa4ee94f75104f4bfbf96ca6fcfc312"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/transparent/rachis-stamp-256.tiff",
+      "bytes": 4908,
+      "sha256": "8dc17ab7c1e3ab90c4911bf0949892a4d364ac1595ba0bc06d49c9bd996d47ee"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/transparent/rachis-stamp-32.png",
+      "bytes": 445,
+      "sha256": "cd836b3b454f581194c6542964ff5996bbbd28fbc882d0da5f3b528baadbf882"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/transparent/rachis-stamp-32.tiff",
+      "bytes": 744,
+      "sha256": "2b39e82c1ca9c185d6b90509c47ea620eb1665c6a792cff980b28f57c3f3231a"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/transparent/rachis-stamp-512.png",
+      "bytes": 9869,
+      "sha256": "cb6d2679b0f3aeff1b7867d7cbdaf068514a42279eb02c0c8a84b383b49c8129"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/transparent/rachis-stamp-512.tiff",
+      "bytes": 11946,
+      "sha256": "c3dc3d8ffb2dd68811eac3aeccabf05a8bcc226304821988f4e975af243d5dcb"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/transparent/rachis-stamp-64.png",
+      "bytes": 843,
+      "sha256": "3615cbd466d51522c124335cfb8f79e1f695dfd3ad002c6fdf6205a01ce4270f"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/transparent/rachis-stamp-64.tiff",
+      "bytes": 1320,
+      "sha256": "afe7b2af9e910725cd5a891a1c193c1c6ad988dc149fc13abe548719738a6ee0"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/white/rachis-stamp-1024.png",
+      "bytes": 30211,
+      "sha256": "103c18ad890048ccc348c25536ea57b09564f74938987edf1751eca33423b1c6"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/white/rachis-stamp-1024.tiff",
+      "bytes": 29892,
+      "sha256": "76af0634bf2d83afd2868f0ca1a4e7abe6b413bf893b6327d365180a0159a8ca"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/white/rachis-stamp-128.png",
+      "bytes": 2516,
+      "sha256": "1e8f636e67cda04e1cae956ea323e7f102aadd19e76e21a95bb443fd83a2ce94"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/white/rachis-stamp-128.tiff",
+      "bytes": 3106,
+      "sha256": "0ac0b6e95dd8171ad2cd6f701e7b11425dfd14b64ca99d759e7f0533bfdb7abf"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/white/rachis-stamp-256.png",
+      "bytes": 5151,
+      "sha256": "8073de0fcfe9196bfe02f265e6fbe3f44a1d30314130f8d392e290826521f243"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/white/rachis-stamp-256.tiff",
+      "bytes": 5972,
+      "sha256": "002cfa235aa9444d52b6e1cbc34246be2e621caaff35db596c7e77338f5b06b1"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/white/rachis-stamp-32.png",
+      "bytes": 595,
+      "sha256": "90be330c79c50aec6cb5e7c26ba9b46bb8603336bc7f6f5f308aa9acf03b17ac"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/white/rachis-stamp-32.tiff",
+      "bytes": 850,
+      "sha256": "8502c52c91997438504d4ffde176b1e88fa960d8e32a2c1f58d0bd4eab5dc5d8"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/white/rachis-stamp-512.png",
+      "bytes": 13539,
+      "sha256": "6b84ecbe3c21d3849fffc4e291ec16d9e85b8b3cc28b1104fd8abd2eb14d5d6b"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/white/rachis-stamp-512.tiff",
+      "bytes": 13170,
+      "sha256": "c30028cec2195965e5868c040f34123552372b0f327ff17d397e46a4c6386a10"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/white/rachis-stamp-64.png",
+      "bytes": 1245,
+      "sha256": "41d98aab85e35410fe3e2e33d8d9d8f029d8b5e2415d6551841cbbe29147cdf5"
+    },
+    {
+      "path": "raster/stamp/bw_lightmode/white/rachis-stamp-64.tiff",
+      "bytes": 1570,
+      "sha256": "a6919c03176c4cc282fc91779b500c3771960444096b4fe1622f96fca87eaaa2"
+    },
+    {
+      "path": "raster/stamp/darkmode/black/rachis-stamp-1024.png",
+      "bytes": 27080,
+      "sha256": "231072f6e473fe74d510b508822251a55122543ca6b63c4893746f4e76ec210c"
+    },
+    {
+      "path": "raster/stamp/darkmode/black/rachis-stamp-1024.tiff",
+      "bytes": 27646,
+      "sha256": "23d3a3849263e18b5eebc30d74c8f04a31ff99e18c72d8d6eb61464507a54e38"
+    },
+    {
+      "path": "raster/stamp/darkmode/black/rachis-stamp-128.png",
+      "bytes": 2290,
+      "sha256": "5cbedb88d920d9c6f13cfc1651cdddb55cb13427d05286d675093623b61c3080"
+    },
+    {
+      "path": "raster/stamp/darkmode/black/rachis-stamp-128.tiff",
+      "bytes": 2824,
+      "sha256": "555103c05af909a92d531c200aa4ed0c34238be4d678ce25ec446db199032737"
+    },
+    {
+      "path": "raster/stamp/darkmode/black/rachis-stamp-256.png",
+      "bytes": 4592,
+      "sha256": "60f0b78797fca5b4f0e0e49539f900b0b8c8e95e2d79e039b854fa17a79f1425"
+    },
+    {
+      "path": "raster/stamp/darkmode/black/rachis-stamp-256.tiff",
+      "bytes": 4980,
+      "sha256": "829e53ea990ad9b424e32b5ea6e2b09d57bc78d5a18f34195571f7434b205908"
+    },
+    {
+      "path": "raster/stamp/darkmode/black/rachis-stamp-32.png",
+      "bytes": 572,
+      "sha256": "2670c63ab81bc48f9cc11006e623eb22ecf179cee45f5b2aa8812c31eb31293f"
+    },
+    {
+      "path": "raster/stamp/darkmode/black/rachis-stamp-32.tiff",
+      "bytes": 790,
+      "sha256": "a163e501a6c9bb4c8be5f674a77f7e21986377088e3bbc96ccda0d44aea718b9"
+    },
+    {
+      "path": "raster/stamp/darkmode/black/rachis-stamp-512.png",
+      "bytes": 12338,
+      "sha256": "9ccdaee237633465a0d9b253a80ef97537f337c82857f75f58cc77355ed8bc1f"
+    },
+    {
+      "path": "raster/stamp/darkmode/black/rachis-stamp-512.tiff",
+      "bytes": 11930,
+      "sha256": "540d052426e8b7473137da1d0d24fbf2d1d8218c52db242ccee807e890e9997b"
+    },
+    {
+      "path": "raster/stamp/darkmode/black/rachis-stamp-64.png",
+      "bytes": 1159,
+      "sha256": "0ae38a8c14bfc2d0ec5eea351e404960dd376920bb330b56899ca8e8a4196581"
+    },
+    {
+      "path": "raster/stamp/darkmode/black/rachis-stamp-64.tiff",
+      "bytes": 1432,
+      "sha256": "f7fd573ab1bd787171a2a4418cd8c4b7ea035b6d6a46279508b902cf528ecd3d"
+    },
+    {
+      "path": "raster/stamp/darkmode/transparent/rachis-stamp-1024.png",
+      "bytes": 22749,
+      "sha256": "55d42500e338f92d45ccc204d10f356903d1d214d491bfbac7e6357391f31b22"
+    },
+    {
+      "path": "raster/stamp/darkmode/transparent/rachis-stamp-1024.tiff",
+      "bytes": 31630,
+      "sha256": "758307fb38ffd3f728f348474f8953c21d56ca047b32a34bec5f616f5a5c4655"
+    },
+    {
+      "path": "raster/stamp/darkmode/transparent/rachis-stamp-128.png",
+      "bytes": 1737,
+      "sha256": "be77db80ff272b541ae1984d845336ea7e8c3d5c9f69106455c1d8980f3701e6"
+    },
+    {
+      "path": "raster/stamp/darkmode/transparent/rachis-stamp-128.tiff",
+      "bytes": 2830,
+      "sha256": "4aaea42cd330f71df2abffe30f3fda283bf9c75a21adcefe11cbde7033a45afb"
+    },
+    {
+      "path": "raster/stamp/darkmode/transparent/rachis-stamp-256.png",
+      "bytes": 3586,
+      "sha256": "e6e5c44252c06f2e3c79a3cd9b67c0fd9c1b565101d16f4deb9483aeeb3c76d3"
+    },
+    {
+      "path": "raster/stamp/darkmode/transparent/rachis-stamp-256.tiff",
+      "bytes": 5536,
+      "sha256": "f2c218ec83f25263d1cc7be71c6c2af7da99b6ba2f1141344e213999555d53f1"
+    },
+    {
+      "path": "raster/stamp/darkmode/transparent/rachis-stamp-32.png",
+      "bytes": 458,
+      "sha256": "3e89d2da9b583923da847f09a9b9ee7dbaef40d4b6137b5c3e50638672d77642"
+    },
+    {
+      "path": "raster/stamp/darkmode/transparent/rachis-stamp-32.tiff",
+      "bytes": 786,
+      "sha256": "2ff480a8655680ed77b7861fcd74864f708a0a3f5d1b319ad5d03406b5146a66"
+    },
+    {
+      "path": "raster/stamp/darkmode/transparent/rachis-stamp-512.png",
+      "bytes": 9703,
+      "sha256": "0379f9d74425892f38e90c48ee76d184a2efb6a6a7bc7285394117e4a59a0a45"
+    },
+    {
+      "path": "raster/stamp/darkmode/transparent/rachis-stamp-512.tiff",
+      "bytes": 14098,
+      "sha256": "00638d41610361aa8bf456ff38593d9e071c400ac063c7536276039e6a050a4f"
+    },
+    {
+      "path": "raster/stamp/darkmode/transparent/rachis-stamp-64.png",
+      "bytes": 864,
+      "sha256": "26f3c5278b98504c01dcfffdb99888f522756d432ddc3b3c8ef4cca158aa3968"
+    },
+    {
+      "path": "raster/stamp/darkmode/transparent/rachis-stamp-64.tiff",
+      "bytes": 1434,
+      "sha256": "057be1dbf288e7daef07f9c2afc43108db4f2fd24c67d6ca56e25376f35894eb"
+    },
+    {
+      "path": "raster/stamp/lightmode/transparent/rachis-stamp-1024.png",
+      "bytes": 35449,
+      "sha256": "8bf8fea7ebeba8ea80753caf3ad0c46e617ee118fa3e3a89d83ef64ff93286be"
+    },
+    {
+      "path": "raster/stamp/lightmode/transparent/rachis-stamp-1024.tiff",
+      "bytes": 48432,
+      "sha256": "8fda0ad5b0e9ca359ea2c8cf1ba8ec3b5616e0f743fb5998950e4693cf496093"
+    },
+    {
+      "path": "raster/stamp/lightmode/transparent/rachis-stamp-128.png",
+      "bytes": 2229,
+      "sha256": "f1a3d6fb71d883791cbeb3ed573fcb5a9f2fe459779edf44de12c81850f0f6c6"
+    },
+    {
+      "path": "raster/stamp/lightmode/transparent/rachis-stamp-128.tiff",
+      "bytes": 3840,
+      "sha256": "b3e91fc9e2f9071aa162fe0dffe4fb9ec224d5cd9b8787a56b9c2fac5d0d404f"
+    },
+    {
+      "path": "raster/stamp/lightmode/transparent/rachis-stamp-256.png",
+      "bytes": 4672,
+      "sha256": "e94708bcdb866543e8e8aebd718424b254215624ab29281181351925e9fb2b4a"
+    },
+    {
+      "path": "raster/stamp/lightmode/transparent/rachis-stamp-256.tiff",
+      "bytes": 7374,
+      "sha256": "c7ff352633f0659848ad83ac1f667a4368063db33e0a9f034da080800ce8acbb"
+    },
+    {
+      "path": "raster/stamp/lightmode/transparent/rachis-stamp-32.png",
+      "bytes": 600,
+      "sha256": "33bdbf2fa13693ce226b344fe48ad58d18574f79dcf107fd9c86031fb12e36dc"
+    },
+    {
+      "path": "raster/stamp/lightmode/transparent/rachis-stamp-32.tiff",
+      "bytes": 1052,
+      "sha256": "4f52226a28775ba0d0ac11d3270fd4e04a0a154cc06c3d07fd9e10a01da1790b"
+    },
+    {
+      "path": "raster/stamp/lightmode/transparent/rachis-stamp-512.png",
+      "bytes": 14840,
+      "sha256": "672895d17b715c4a64016b984cdd54ae2e2fe571d55ab80a528cd950298f3ec0"
+    },
+    {
+      "path": "raster/stamp/lightmode/transparent/rachis-stamp-512.tiff",
+      "bytes": 22848,
+      "sha256": "8d079aa96b86fe3870135d6f25c28e9046483516bca13c72e00cb52ee88c018e"
+    },
+    {
+      "path": "raster/stamp/lightmode/transparent/rachis-stamp-64.png",
+      "bytes": 1127,
+      "sha256": "8ae1d270133dc2b8947ccc4314799c1480d9eb86df7f4113213c6aa1137dc09a"
+    },
+    {
+      "path": "raster/stamp/lightmode/transparent/rachis-stamp-64.tiff",
+      "bytes": 1910,
+      "sha256": "d67fcd6f7bdf78ea6d14225ff49b93172c2ed81380781f2234e190e42bda9675"
+    },
+    {
+      "path": "raster/stamp/lightmode/white/rachis-stamp-1024.png",
+      "bytes": 37215,
+      "sha256": "876ae63cc0d4a5a1427151aa76774f28979ace9832ff989659ecb00e99e8a4c1"
+    },
+    {
+      "path": "raster/stamp/lightmode/white/rachis-stamp-1024.tiff",
+      "bytes": 44982,
+      "sha256": "85f0694d7efe184f1bb913d6abf1c715daf912c82188ea385f7186adbff3c1ae"
+    },
+    {
+      "path": "raster/stamp/lightmode/white/rachis-stamp-128.png",
+      "bytes": 2517,
+      "sha256": "caae0ec525823f167be764cb3e653c6e870a23b73c9336fa594f1b596ad556fa"
+    },
+    {
+      "path": "raster/stamp/lightmode/white/rachis-stamp-128.tiff",
+      "bytes": 3910,
+      "sha256": "6d1533cc28b9ac8e6202372ac2a6d150526b6d43c1d6bfb6f5d049025e251dfb"
+    },
+    {
+      "path": "raster/stamp/lightmode/white/rachis-stamp-256.png",
+      "bytes": 5217,
+      "sha256": "490d51bbcb83c83f7d112fb02cfbff8bf8f961743098da41c6b570c5715296de"
+    },
+    {
+      "path": "raster/stamp/lightmode/white/rachis-stamp-256.tiff",
+      "bytes": 7506,
+      "sha256": "473bd74905634fca78176f30cc35e7f0e2e02190aa9b890c0d6d53e6a8761031"
+    },
+    {
+      "path": "raster/stamp/lightmode/white/rachis-stamp-32.png",
+      "bytes": 618,
+      "sha256": "d7c53607a220576edfe349fd26908ebda551345c23fa8211673d84433484f3fc"
+    },
+    {
+      "path": "raster/stamp/lightmode/white/rachis-stamp-32.tiff",
+      "bytes": 1026,
+      "sha256": "ba7ef8611c40f071c5b7c5b5b267532727370add7cb23e37a7c58ea356dda667"
+    },
+    {
+      "path": "raster/stamp/lightmode/white/rachis-stamp-512.png",
+      "bytes": 16399,
+      "sha256": "f0211152ad41bf48aa37ffe999563cdfbfac66fda60cb6bb577832f62d52dcce"
+    },
+    {
+      "path": "raster/stamp/lightmode/white/rachis-stamp-512.tiff",
+      "bytes": 21184,
+      "sha256": "b43c816dfd5c052978ebf4d92648b8374d2cbd40812819084e1bcba639b3f2f6"
+    },
+    {
+      "path": "raster/stamp/lightmode/white/rachis-stamp-64.png",
+      "bytes": 1289,
+      "sha256": "3bfd7521541ed9370a1cbe07438dbf0bf1bc8f156038a13cffcc1a7159b40501"
+    },
+    {
+      "path": "raster/stamp/lightmode/white/rachis-stamp-64.tiff",
+      "bytes": 1964,
+      "sha256": "c183a69c74876af8e1f02f23adda19769ea680044e3f3338398e757430c78453"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/black/rachis-logo-100.png",
+      "bytes": 1965,
+      "sha256": "c5d274c2751305f8acc598721fe2ba87925adf3aff235a6ab01328b65643146e"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/black/rachis-logo-100.tiff",
+      "bytes": 2190,
+      "sha256": "e1ffdf914549ad85ca9e26e4964e8feb2d59fde8cfc8b431f4f39f5c51c4cf75"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/black/rachis-logo-1600.png",
+      "bytes": 37245,
+      "sha256": "6e9bdaf1347626a84195686bceb6bb20974f799460adac9d8dd97af26a2ceba8"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/black/rachis-logo-1600.tiff",
+      "bytes": 37664,
+      "sha256": "5a411e6f8934b450a98d47318ba5ed3e1fd1fd61f9d608db8e39f9809d109b27"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/black/rachis-logo-200.png",
+      "bytes": 3817,
+      "sha256": "0bfd7728231ff28b039b0c6af33773f6441b40cda7b50f07455391c85e96df22"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/black/rachis-logo-200.tiff",
+      "bytes": 4738,
+      "sha256": "bb481b042bf8f97cbc97f7784825186e629fde8423a42878e4964418221d321a"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/black/rachis-logo-3200.png",
+      "bytes": 103480,
+      "sha256": "30f766aa58aa469a92291f9e5d041efc1489c04563260d0e7a95102303393547"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/black/rachis-logo-3200.tiff",
+      "bytes": 96446,
+      "sha256": "83ff766a71471daa4ec2cc91acf24a0e03783e84e16da6860acffc8d9c05966b"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/black/rachis-logo-400.png",
+      "bytes": 7748,
+      "sha256": "a31a6c07517bbf22a67202050b41f70ce3105dae8d9d4a5f77762aacb7917f61"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/black/rachis-logo-400.tiff",
+      "bytes": 8870,
+      "sha256": "983e069da039996d8f53cf4e5b256375eb7ab4211662a150407107175f343579"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/black/rachis-logo-800.png",
+      "bytes": 16603,
+      "sha256": "8012a350f83d2a4e424df77b9a17c60b4ee352bd8a317b087b3e6059b7e69922"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/black/rachis-logo-800.tiff",
+      "bytes": 17822,
+      "sha256": "10310b13e13350dfe595e7eff1c986c941a9517df1e9eb8ab473fd1392d93b5b"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/transparent/rachis-logo-100.png",
+      "bytes": 1390,
+      "sha256": "474f21636383140d1af6db7ac6a5a0e08bef6038824af4d7dc130ff25dd35660"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/transparent/rachis-logo-100.tiff",
+      "bytes": 2292,
+      "sha256": "2ac0af33f65745c7a94ede8bdc754e60ce25d61047fa808a47b5b1da381285a1"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/transparent/rachis-logo-1600.png",
+      "bytes": 29930,
+      "sha256": "7641d6f66d267247000e30b7cba2bfdc8696078b44565ecd2dc0e5a693440fbc"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/transparent/rachis-logo-1600.tiff",
+      "bytes": 42090,
+      "sha256": "82ff5747ae3bac777041178bb5234999f8a58853080535f7fa596c3504262ff8"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/transparent/rachis-logo-200.png",
+      "bytes": 2882,
+      "sha256": "549cf3fe2cf34ec83737c985fe479325f99e713cc9f3b3c0c20356a6122420ea"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/transparent/rachis-logo-200.tiff",
+      "bytes": 4910,
+      "sha256": "34c2001308e5b5c1ee68b7280a67e5636a8e9a632371e81927c4949b77ce5665"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/transparent/rachis-logo-3200.png",
+      "bytes": 84153,
+      "sha256": "bd395c175e99efd5c1bf687630f13cb5b292e1eb05040e9cf6bb1a3e2bf9cb1a"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/transparent/rachis-logo-3200.tiff",
+      "bytes": 110844,
+      "sha256": "7afe1e56e05231ff7458a8f7e0515dd60b43b22f99722603dbc9bf79b8a1c6b9"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/transparent/rachis-logo-400.png",
+      "bytes": 6045,
+      "sha256": "03715652bb0b8e68210e22376465abe1ce1200535615747ef1069ef1b97ff6ca"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/transparent/rachis-logo-400.tiff",
+      "bytes": 9780,
+      "sha256": "dda1c693c94c9df6c8591bb5bc6f5900d89839ecad4256f7ba53f4c581b13028"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/transparent/rachis-logo-800.png",
+      "bytes": 13228,
+      "sha256": "78628fe007322dcd7b60fb1de7093556663a8fc3ab25d80f406b58cd03afad7a"
+    },
+    {
+      "path": "raster/wordmark/bw_darkmode/transparent/rachis-logo-800.tiff",
+      "bytes": 19942,
+      "sha256": "b30d921f3c08bab352425f98c6f3641f0405119f09c1427432a6a22ce4714cec"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/transparent/rachis-logo-100.png",
+      "bytes": 1346,
+      "sha256": "c414a45296f9327d1e72978eff85ca56540664a5248911abf2e2567fc98899c1"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/transparent/rachis-logo-100.tiff",
+      "bytes": 2116,
+      "sha256": "0ac1908dbfd5a694ce8c7aac68bd9a0402a49ffd6676f7ba300f769c0c1116ab"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/transparent/rachis-logo-1600.png",
+      "bytes": 29462,
+      "sha256": "a1672ce60d2d9d8bd867195809df45d9f4b04704099eacac4a9fcb200e660a8a"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/transparent/rachis-logo-1600.tiff",
+      "bytes": 36750,
+      "sha256": "fbf1d94388db4aa11cec240598cd216468625dac56347186e81d04e432663aed"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/transparent/rachis-logo-200.png",
+      "bytes": 2758,
+      "sha256": "5d64992781e86ad638b0a9fbf09f0d35f65fc7a0a73a2092348bce9871d7cf56"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/transparent/rachis-logo-200.tiff",
+      "bytes": 4398,
+      "sha256": "83bd9e49aa5b887d1c602653d073e8e13b84b09717036553c315d7d9b2c99586"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/transparent/rachis-logo-3200.png",
+      "bytes": 85406,
+      "sha256": "912bc50720409305708737cb9fb66dcdba404e8404db0cfb606bd6a780e5b17f"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/transparent/rachis-logo-3200.tiff",
+      "bytes": 97690,
+      "sha256": "3d14ec9d6c999a1d8f2c990c5637d9aa72c8e9787a69be3a9c79de32b6e7c46d"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/transparent/rachis-logo-400.png",
+      "bytes": 5785,
+      "sha256": "4bc70600bc84def2a5e76a2f8246f80e04dac464554bc3e308972a0005015629"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/transparent/rachis-logo-400.tiff",
+      "bytes": 8614,
+      "sha256": "461a215c83697cc5373d8e16632ed3e34a07690f7aaf62db50ddfed7adba5246"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/transparent/rachis-logo-800.png",
+      "bytes": 12736,
+      "sha256": "ab356f47a55ff0a6d83ac4b9ff8ed364d71235c49d31097cfd04b7a6765caa24"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/transparent/rachis-logo-800.tiff",
+      "bytes": 17312,
+      "sha256": "fd81da09e0131110c06bebf372ad6a7d3bdee8dc09f07ca2bbde1337c440e154"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/white/rachis-logo-100.png",
+      "bytes": 1977,
+      "sha256": "29638743ec16caab5e669a7523272f6b8de4dc8c4434f48c794366751715db48"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/white/rachis-logo-100.tiff",
+      "bytes": 2248,
+      "sha256": "2c486fef30ac029b181c95ee384fb7d7811acd91b0dd140ae64726b13d0804e7"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/white/rachis-logo-1600.png",
+      "bytes": 38416,
+      "sha256": "6879eafbae21c17f2ca985647debee0984317f5380da76f0e1b2f9979e0b4cbe"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/white/rachis-logo-1600.tiff",
+      "bytes": 38732,
+      "sha256": "2019f428f34cf893f80f227ac73c05a19c0394d1d1584bc4e2c87a61973a8ff4"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/white/rachis-logo-200.png",
+      "bytes": 3839,
+      "sha256": "e2ed2179ec3aef348453303ca10790c7c4c36217b32ca86d32b49f8e41b3ad94"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/white/rachis-logo-200.tiff",
+      "bytes": 4846,
+      "sha256": "0b2c26920d8baf517ca67f2c91d3b3fa6ead87d7aca828a104fc78af4ed94643"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/white/rachis-logo-3200.png",
+      "bytes": 105880,
+      "sha256": "f1ccfffe03ec08f5114f9318b6397d04aef70f59517ca3c654f8ddefa9b4d0d2"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/white/rachis-logo-3200.tiff",
+      "bytes": 98752,
+      "sha256": "b5365dec9778555ae23e3751999beedc8e867e021f6f0df3503e494eca4b3423"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/white/rachis-logo-400.png",
+      "bytes": 7805,
+      "sha256": "df61995b1026d98131cb384b6eef4e8b7f71939ba5e2817b6fc75fc066c3bdd2"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/white/rachis-logo-400.tiff",
+      "bytes": 9112,
+      "sha256": "724828aba1b439404385e9d5e4f47c19d2b7be918f5187237f4d91ea2e5092d5"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/white/rachis-logo-800.png",
+      "bytes": 16665,
+      "sha256": "480c13276cc3a7e7df25302ff7f610bcdde60405857bb818a8c61e23a142cde4"
+    },
+    {
+      "path": "raster/wordmark/bw_lightmode/white/rachis-logo-800.tiff",
+      "bytes": 18246,
+      "sha256": "d13d7f19cbccd774b5301aa865dfd7ef7d2be2c5cb33d6b4471988661cc33116"
+    },
+    {
+      "path": "raster/wordmark/darkmode/black/rachis-logo-100.png",
+      "bytes": 2062,
+      "sha256": "aedd02a58217926738cc38901e58eb4ab05032c6ab011d34b6e728f5f121fa4e"
+    },
+    {
+      "path": "raster/wordmark/darkmode/black/rachis-logo-100.tiff",
+      "bytes": 2752,
+      "sha256": "4c389e296a049c0a9ff705944e5d50b05a1313516de567f26c20546f42ee9bda"
+    },
+    {
+      "path": "raster/wordmark/darkmode/black/rachis-logo-1600.png",
+      "bytes": 38661,
+      "sha256": "c9ebf125da77bc67e524e7df303313476e44a0d5480254bc0ab23c03e5110018"
+    },
+    {
+      "path": "raster/wordmark/darkmode/black/rachis-logo-1600.tiff",
+      "bytes": 47892,
+      "sha256": "9f67521bbf95462d3db11e4a81efcb82990962f04e687c4431ba64bc227369a7"
+    },
+    {
+      "path": "raster/wordmark/darkmode/black/rachis-logo-200.png",
+      "bytes": 3923,
+      "sha256": "0a8c991c0c3118a11aa25186c6763f55ed1ec43b1422eedcdbd4bd3b805abaa6"
+    },
+    {
+      "path": "raster/wordmark/darkmode/black/rachis-logo-200.tiff",
+      "bytes": 5868,
+      "sha256": "34221e0baea2b551b478065d0455d56a3797cd1288cb8a7e5d40ceeca44319cb"
+    },
+    {
+      "path": "raster/wordmark/darkmode/black/rachis-logo-3200.png",
+      "bytes": 125932,
+      "sha256": "5fbbe260ccb2d0a3529a44e95deacb56017b11fce424be151dad0973410d461b"
+    },
+    {
+      "path": "raster/wordmark/darkmode/black/rachis-logo-3200.tiff",
+      "bytes": 146922,
+      "sha256": "28c06ccdc719c229050f95d1a100215f2561e04b2f5d40c5a2028d9473e64c44"
+    },
+    {
+      "path": "raster/wordmark/darkmode/black/rachis-logo-400.png",
+      "bytes": 8071,
+      "sha256": "f5f52f763a3d4f5f7912fe8c2abfd9f3d2f5392107d7815ed453a3673391c9c4"
+    },
+    {
+      "path": "raster/wordmark/darkmode/black/rachis-logo-400.tiff",
+      "bytes": 11464,
+      "sha256": "216bada1cc67351b1885542e43dce52c95418b8ab3231cbc0b310cd99774abc4"
+    },
+    {
+      "path": "raster/wordmark/darkmode/black/rachis-logo-800.png",
+      "bytes": 17183,
+      "sha256": "56410bdc98c3f5e5ffae2dd97c792a061401e01cd7b8f6801bc00010d91b2582"
+    },
+    {
+      "path": "raster/wordmark/darkmode/black/rachis-logo-800.tiff",
+      "bytes": 22996,
+      "sha256": "d2892e442324ad34dbd4b79a5c6f235dc5bb4d3b04254b15baf911d04940a50f"
+    },
+    {
+      "path": "raster/wordmark/darkmode/transparent/rachis-logo-100.png",
+      "bytes": 1776,
+      "sha256": "63fbcb0eb07b6e02b35f3c0beff1381c4f6a5fdd2ccec89158c1d904eb1cb4e1"
+    },
+    {
+      "path": "raster/wordmark/darkmode/transparent/rachis-logo-100.tiff",
+      "bytes": 2924,
+      "sha256": "47dd720e1ebb37e197d0ed6898a970d02b35188e649677b5df305ae58c965eef"
+    },
+    {
+      "path": "raster/wordmark/darkmode/transparent/rachis-logo-1600.png",
+      "bytes": 37551,
+      "sha256": "154354971691e04ac2995bc88ffa438b5110a2b202450df0421c616a71f63c65"
+    },
+    {
+      "path": "raster/wordmark/darkmode/transparent/rachis-logo-1600.tiff",
+      "bytes": 51312,
+      "sha256": "15612491ceccc7d4a77ee02238aaa315ad3e5450e5c98e6eead717122189d1cb"
+    },
+    {
+      "path": "raster/wordmark/darkmode/transparent/rachis-logo-200.png",
+      "bytes": 3574,
+      "sha256": "8ca8b86f61ade79111d83f314fd3defe39fa70a2a7bed0a6a6d06b9bc9ff777c"
+    },
+    {
+      "path": "raster/wordmark/darkmode/transparent/rachis-logo-200.tiff",
+      "bytes": 6132,
+      "sha256": "18faf0895eefaeaa19ad74c298c5d84e1c2e6c806527ef56d87c414e45d1236e"
+    },
+    {
+      "path": "raster/wordmark/darkmode/transparent/rachis-logo-3200.png",
+      "bytes": 130203,
+      "sha256": "56a1d3702f2bf6e98e3b4fee87895ca812c1a6f24d16f495060013e802a427de"
+    },
+    {
+      "path": "raster/wordmark/darkmode/transparent/rachis-logo-3200.tiff",
+      "bytes": 175634,
+      "sha256": "c0014238661ae88de4b33eb8f347d257659f072a8e40912a6976f69fae2e1ac3"
+    },
+    {
+      "path": "raster/wordmark/darkmode/transparent/rachis-logo-400.png",
+      "bytes": 7335,
+      "sha256": "14c91ed8efc910a1616f50d8c01f60fc877ec22e9c7f671bd9eb6698c8441462"
+    },
+    {
+      "path": "raster/wordmark/darkmode/transparent/rachis-logo-400.tiff",
+      "bytes": 12240,
+      "sha256": "8112ad901272a10d4a921053c47263ff6be7151991e88f5754a48d804dd9ee37"
+    },
+    {
+      "path": "raster/wordmark/darkmode/transparent/rachis-logo-800.png",
+      "bytes": 16334,
+      "sha256": "f84d4be392bf3077481bbea7500f8e5a02361760316d8c05394ac1e9042a6f19"
+    },
+    {
+      "path": "raster/wordmark/darkmode/transparent/rachis-logo-800.tiff",
+      "bytes": 24428,
+      "sha256": "ae71d0c4c9ccd84602fcd0ecdb37646f153e9f3c5c329e9f35e0387e1fa8fcba"
+    },
+    {
+      "path": "raster/wordmark/lightmode/transparent/rachis-logo-100.png",
+      "bytes": 1551,
+      "sha256": "211531bf1c4433238ea1a14ace459a03ed014011b795242a5d7a071c2832ed41"
+    },
+    {
+      "path": "raster/wordmark/lightmode/transparent/rachis-logo-100.tiff",
+      "bytes": 2404,
+      "sha256": "66c546eb22606d7372c1d53d79a8341293fc2aecb344af933762f9cd763d6b6b"
+    },
+    {
+      "path": "raster/wordmark/lightmode/transparent/rachis-logo-1600.png",
+      "bytes": 32759,
+      "sha256": "b51145c501c967f9a672f6070ec0a7534ed71b350e02fe32357f49dacacdbe45"
+    },
+    {
+      "path": "raster/wordmark/lightmode/transparent/rachis-logo-1600.tiff",
+      "bytes": 42918,
+      "sha256": "49c576b17fcf7e714fc29fa5e231b3005fd1cfa73003b4a1371e53024f4e6ca3"
+    },
+    {
+      "path": "raster/wordmark/lightmode/transparent/rachis-logo-200.png",
+      "bytes": 3143,
+      "sha256": "e8d6b19ca0a1cc20f0680baf8ae47ecfe25717c5c5105572e3c21af1a412aa21"
+    },
+    {
+      "path": "raster/wordmark/lightmode/transparent/rachis-logo-200.tiff",
+      "bytes": 5070,
+      "sha256": "4f4a1203283888d5acc4985c8195fd120bd274f56276b1c5a8f07ff806d2cf1b"
+    },
+    {
+      "path": "raster/wordmark/lightmode/transparent/rachis-logo-3200.png",
+      "bytes": 99996,
+      "sha256": "9c281d3e5c6159b2747a272a16e772df718b10607e1436638ca6c099c79ea6ef"
+    },
+    {
+      "path": "raster/wordmark/lightmode/transparent/rachis-logo-3200.tiff",
+      "bytes": 121746,
+      "sha256": "71520037bb8ffa1906a698b5b7276048b9855435c3da3a88e28cc4a5ca5cfe31"
+    },
+    {
+      "path": "raster/wordmark/lightmode/transparent/rachis-logo-400.png",
+      "bytes": 6518,
+      "sha256": "766913b3f2527754ee783496b89fae783e10871944f5ec5458b0acccd68f70fc"
+    },
+    {
+      "path": "raster/wordmark/lightmode/transparent/rachis-logo-400.tiff",
+      "bytes": 10140,
+      "sha256": "e4c59663b07f619138f046db0b8b096ac7ca26a000b1b0d840fe2a7744c1c51a"
+    },
+    {
+      "path": "raster/wordmark/lightmode/transparent/rachis-logo-800.png",
+      "bytes": 14241,
+      "sha256": "ac80d48f7b5c16c44f52927c51a9bf89703823434c29d5f1a9fb1015dfe2d08a"
+    },
+    {
+      "path": "raster/wordmark/lightmode/transparent/rachis-logo-800.tiff",
+      "bytes": 20202,
+      "sha256": "2718bd011e373153452bea6ccf7e454c1f780c9edd8d1419e2c0b57b8cc4ecd5"
+    },
+    {
+      "path": "raster/wordmark/lightmode/white/rachis-logo-100.png",
+      "bytes": 2059,
+      "sha256": "9aad45d0cdbca3054b2872f2d8953c1109c41977f66976b4b9516825a187a217"
+    },
+    {
+      "path": "raster/wordmark/lightmode/white/rachis-logo-100.tiff",
+      "bytes": 2516,
+      "sha256": "638b07c758901bbf70caf40a0f2d7c668f129a6e744a5e726388b186db46dd10"
+    },
+    {
+      "path": "raster/wordmark/lightmode/white/rachis-logo-1600.png",
+      "bytes": 39461,
+      "sha256": "4aee988f6e8bb1a5b753c86241328b0760b3b5ce055dfb917f97d5f7b9c52674"
+    },
+    {
+      "path": "raster/wordmark/lightmode/white/rachis-logo-1600.tiff",
+      "bytes": 44622,
+      "sha256": "815064d0dfb0f4f049b6512b868a50caefe9d7803a5d1586658a5c65f9d6ca89"
+    },
+    {
+      "path": "raster/wordmark/lightmode/white/rachis-logo-200.png",
+      "bytes": 3967,
+      "sha256": "d3293fe0991531cec8a98537fd382f04a14d8af3d582ff258ec2435e45d33466"
+    },
+    {
+      "path": "raster/wordmark/lightmode/white/rachis-logo-200.tiff",
+      "bytes": 5474,
+      "sha256": "dfae2fae4cc91b22d9e92df87e0f20fc4b128f8eccb561804a9a19c020107976"
+    },
+    {
+      "path": "raster/wordmark/lightmode/white/rachis-logo-3200.png",
+      "bytes": 113156,
+      "sha256": "f8c29ad0da86f0cb835d774221454095059df8b0bf2b0081f09bf1aacffefd09"
+    },
+    {
+      "path": "raster/wordmark/lightmode/white/rachis-logo-3200.tiff",
+      "bytes": 120286,
+      "sha256": "64aabb2ecbb0f9db3826c137e646a2e2420dee7fc6e933fca62546dc9c8cd3a4"
+    },
+    {
+      "path": "raster/wordmark/lightmode/white/rachis-logo-400.png",
+      "bytes": 8197,
+      "sha256": "3633c96128d14ffa7bec71da592f9ec41067145f0521c4ade92c214d853e076a"
+    },
+    {
+      "path": "raster/wordmark/lightmode/white/rachis-logo-400.tiff",
+      "bytes": 10556,
+      "sha256": "d493ea0c164dd31d79a77998a722947a39493370b7d53d1c0692fea2ed817d31"
+    },
+    {
+      "path": "raster/wordmark/lightmode/white/rachis-logo-800.png",
+      "bytes": 17267,
+      "sha256": "8d1b6a650f75a9303072b1cf6cf68737baccaedce10c173ffce664315ff618a6"
+    },
+    {
+      "path": "raster/wordmark/lightmode/white/rachis-logo-800.tiff",
+      "bytes": 21366,
+      "sha256": "8c5c3f90bd10f96d69a920e86b1f97b600650bcf7258b0cdbad2414ac1eca6ff"
+    },
+    {
+      "path": "vector/favicon/rachis-favicon-adaptive.svg",
+      "bytes": 1261,
+      "sha256": "1a8422203d3a718dc289dbea258c3f0f1e3f82600881284638312e94b1c8d218"
+    },
+    {
+      "path": "vector/favicon/rachis-favicon-bw_darkmode.svg",
+      "bytes": 687,
+      "sha256": "0f68e62394bd6617dcaffbb302f8924d40e80c4cd3edf4fd2163c9cf84b8ef25"
+    },
+    {
+      "path": "vector/favicon/rachis-favicon-bw_lightmode.svg",
+      "bytes": 690,
+      "sha256": "65e7ca9058dce1eea4edeaadf28ee191b353ddeba4d0dbd7c5721b38e888436f"
+    },
+    {
+      "path": "vector/favicon/rachis-favicon-darkmode.svg",
+      "bytes": 678,
+      "sha256": "032802b52729febd92a7cb9b6505396d341b9cabf710e6d123c6523b2cfe8069"
+    },
+    {
+      "path": "vector/favicon/rachis-favicon-lightmode.svg",
+      "bytes": 681,
+      "sha256": "580a9963c9409413ef4a8127ef784c0bd34193ec4159e421891f739ccc96523b"
+    },
+    {
+      "path": "vector/stamp/rachis-stamp-adaptive.svg",
+      "bytes": 3005,
+      "sha256": "4102bd14d8675788d28f9cf1cc1c690598aa802d968209023004d6ab74a9fb36"
+    },
+    {
+      "path": "vector/stamp/rachis-stamp-bw_darkmode.svg",
+      "bytes": 2443,
+      "sha256": "ae73c797fb23878719a12723e3babc6c2821597cfa5675e6b24f0169c3d1ba97"
+    },
+    {
+      "path": "vector/stamp/rachis-stamp-bw_lightmode.svg",
+      "bytes": 2446,
+      "sha256": "c8aedb112027114dfd984490e2cdb61b1d7cc0b82371c7c6c631f4b037afcd13"
+    },
+    {
+      "path": "vector/stamp/rachis-stamp-darkmode.svg",
+      "bytes": 2434,
+      "sha256": "93a54f4837076a7f2f46911bdd9faa27cf5f36a53e7ce68ca6832d4f1d73ecb1"
+    },
+    {
+      "path": "vector/stamp/rachis-stamp-lightmode.svg",
+      "bytes": 2437,
+      "sha256": "8fde650e74c8ecf32e63ced505eb3e4cd111f5e7a42087c037616c255eddd489"
+    },
+    {
+      "path": "vector/wordmark/rachis-logo-adaptive.svg",
+      "bytes": 3505,
+      "sha256": "d7668625cd7401c702ad8df43ec8f9732a8b5c183fd0e6e33253c08fdc9f9259"
+    },
+    {
+      "path": "vector/wordmark/rachis-logo-bw_darkmode.svg",
+      "bytes": 2931,
+      "sha256": "181cd77fc979b9ab9fc56696816eed018563fb73e462358afdc59b70c24f3286"
+    },
+    {
+      "path": "vector/wordmark/rachis-logo-bw_lightmode.svg",
+      "bytes": 2934,
+      "sha256": "6fce1e758ffd791d48dfa075cc69e8ac45a38b12c2fd1599ec2f03addd8ee847"
+    },
+    {
+      "path": "vector/wordmark/rachis-logo-darkmode.svg",
+      "bytes": 2922,
+      "sha256": "3833a1f153ea9608051916600e8641b6f5faa42d2a592210ba9f805945f4e1d3"
+    },
+    {
+      "path": "vector/wordmark/rachis-logo-lightmode.svg",
+      "bytes": 2925,
+      "sha256": "9790153236865e102255d153debf6d09e326361a375114e74181d7f4a9f53f8f"
+    }
+  ]
+}

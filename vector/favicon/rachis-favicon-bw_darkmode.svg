@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="logo-rachis-favicon-bw_darkmode">
+  
+  <g>
+    <ellipse cx="32.3" cy="38.9" rx=".5" ry="10.8" stroke-width="3.8" />
+    <ellipse cx="32.3" cy="18.2" rx=".9" ry="4.1" stroke-width="3" />
+  </g>
+  <g stroke-width="7.2">
+    <ellipse cx="52.3" cy="45.3" rx="3.1" ry="8.4" transform="rotate(76.8)scale(1 -.9031)skewX(-23.2)" />
+    <ellipse cx="13.9" cy="-25.4" rx="3.1" ry="8.4" transform="rotate(103.2)scale(1 .9031)skewX(-23.2)" />
+  </g>
+<style>
+#logo-rachis-favicon-bw_darkmode path { fill: none !important; }
+#logo-rachis-favicon-bw_darkmode ellipse { fill: none !important; stroke: #ffffff !important; }
+</style>
+</svg>

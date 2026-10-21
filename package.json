@@ -1,0 +1,17 @@
+{
+  "name": "rachis-logos",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Rachis logo sources, theme variants, raster exports, and icon bundles",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/render.mjs",
+    "test": "node --test",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "fflate": "0.8.3",
+    "sharp": "0.35.5"
+  }
+}

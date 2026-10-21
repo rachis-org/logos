@@ -1,11 +1,11 @@
-> [!NOTE]
-> The Rachis logo was designed by [Felicia Sandberg](https://github.com/fethalen).
-
 # Rachis logos
 
 SVG, PNG, TIFF, and icon files for the Rachis wordmark, stamp, and favicon.
 
 [Download the complete logo bundle](bundles/rachis-logos.zip).
+
+> [!NOTE]
+> The Rachis logo was designed by [Felicia Sandberg](https://github.com/fethalen).
 
 <!-- BEGIN GENERATED LOGO GALLERY -->
 

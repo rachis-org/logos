@@ -29,9 +29,9 @@ async function save(relative, data) {
 function readmeGallery() {
   const header = `## Logo gallery
 
-Each preview links to its SVG. The PNG previews include a white or black background so every scheme stays visible in both GitHub themes.
+Each preview links to its SVG.
 
-| Color scheme | ${config.assets.map(({ description }) => description).join(' | ')} |
+| Color scheme | ${config.assets.map(({ type }) => type[0].toUpperCase() + type.slice(1)).join(' | ')} |
 | --- | ${config.assets.map(() => '---').join(' | ')} |`;
   const rows = colorSchemes.map((scheme) => {
     const images = config.assets.map((asset) => {

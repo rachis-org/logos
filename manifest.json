@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "files": [
     {
-      "path": "preview.html",
-      "bytes": 6850,
-      "sha256": "54695d5800d09bcae40aad3e57383b32b61c1c0e89a3a3b835ad0d9616cbdbfc"
+      "path": "README.md",
+      "bytes": 8896,
+      "sha256": "189b00878c30df510ecb8a6db5f0760c2e84f495ef247b07c85c1e65f180f45f"
     },
     {
       "path": "raster/favicon/bw_darkmode/black/rachis-favicon-128.png",

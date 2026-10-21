@@ -24,7 +24,7 @@ async function walk(directory) {
   }
   return files;
 }
-assert.deepEqual([...listed].sort(), [...await walk('vector'), ...await walk('raster'), 'preview.html'].sort());
+assert.deepEqual([...listed].sort(), [...await walk('vector'), ...await walk('raster'), 'README.md'].sort());
 
 for (const entry of manifest.files) {
   const bytes = await read(entry.path);
@@ -88,8 +88,14 @@ for (const icon of webmanifest.icons) {
   const metadata = await sharp(await read(path.posix.join('raster/icons', icon.src))).metadata();
   assert.equal(`${metadata.width}x${metadata.height}`, icon.sizes);
 }
-const html = (await read('preview.html')).toString();
-for (const [, target] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
+const readme = (await read('README.md')).toString().replace(/^```[^\n]*\n[\s\S]*?^```\s*$/gm, '');
+const targets = [
+  ...[...readme.matchAll(/(?:href|src)="([^"]+)"/g)].map(([, target]) => target),
+  ...[...readme.matchAll(/\]\(([^\s)]+)\)/g)].map(([, target]) => target),
+];
+for (const target of new Set(targets)) {
+  if (/^(?:[a-z][a-z\d+.-]*:|#)/i.test(target)) continue;
   await read(target);
 }
-console.log(`Verified ${manifest.files.length} exports, raster dimensions/transparency, ICO frames, retina sizes, preview links, and ZIP contents.`);
+assert.ok(!archive['rachis-logos/preview.html'], 'The bundle should use the README gallery');
+console.log(`Verified ${manifest.files.length} exports, raster dimensions/transparency, ICO frames, retina sizes, README links, and ZIP contents.`);

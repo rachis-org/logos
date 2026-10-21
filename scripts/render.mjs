@@ -4,12 +4,12 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { zipSync } from 'fflate';
 import sharp from 'sharp';
-import { appIcon, encodeIco, renderPng, themedSvg, colorSchemes, adaptiveModes, isDark } from './lib.mjs';
+import { appIcon, encodeIco, renderPng, themedSvg, colorSchemes, isDark } from './lib.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const args = process.argv.slice(2);
 if (args.includes('--help')) {
-  console.log('Usage: npm run build [-- --help]\nRender vector/, raster/, preview.html, manifest.json, and bundles/rachis-logos.zip.');
+  console.log('Usage: npm run build [-- --help]\nRender vector/, raster/, the README gallery, manifest.json, and bundles/rachis-logos.zip.');
   process.exit(0);
 }
 if (args.length) throw new Error(`Unknown arguments: ${args.join(' ')}`);
@@ -26,27 +26,34 @@ async function save(relative, data) {
   entries.push(relative);
 }
 
-function gallery() {
-  const rows = config.assets.map((asset) => `
-    <section><h2>${asset.description}</h2><div class="pair">
-      ${colorSchemes.map((theme) => `<article class="${isDark(theme) ? 'dark' : 'light'}"><span>${theme}</span>
-        <img class="${asset.type === 'wordmark' ? 'wordmark' : 'symbol'}" src="vector/${asset.type}/${asset.name}-${theme}.svg" alt="${asset.description}">
-        <p><a href="vector/${asset.type}/${asset.name}-${theme}.svg">SVG</a> · <a href="raster/${asset.type}/${theme}/transparent/${asset.name}-${asset.widths.find((width) => width >= 256)}.png">PNG</a></p>
-      </article>`).join('')}
-    </div><p><a href="vector/${asset.type}/${asset.name}-adaptive.svg">Adaptive SVG</a></p></section>`).join('');
-  return `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Rachis logo exports</title><style>
-* { box-sizing: border-box; } body { margin: 0 auto; padding: 48px 24px; max-width: 1100px; font: 16px/1.5 system-ui; color: #183640; background: #edf2f4; }
-h1 { font-size: 36px; margin-bottom: 8px; } h2 { font-size: 20px; margin-top: 36px; } a { color: inherit; } .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-article { border: 1px solid #849ca34d; border-radius: 12px; padding: 24px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 225px; }
-article.light { background: white; color: #1a414c; color-scheme: light; } article.dark { background: #030620; color: #f7f8f8; color-scheme: dark; }
-article span { align-self: flex-start; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; opacity: .65; }
-img { display: block; max-width: 100%; margin: 24px 0; } .wordmark { width: 320px; height: 80px; } .symbol { width: 96px; height: 96px; }
-article p { margin: 0; font-size: 14px; } @media(max-width:600px) { .pair { grid-template-columns: 1fr; } }
-</style><h1>Rachis logos</h1><p>Generated from the original artwork and website palette. <a href="bundles/rachis-logos.zip">Download the complete bundle</a>.</p>
-${rows}<section><h2>Adaptive SVGs in a browser</h2><p>The same file is embedded twice; each panel sets its own CSS <code>color-scheme</code>.</p><div class="pair">
-${Object.keys(adaptiveModes).map((mode) => `<article class="${mode}"><span>${mode} color scheme</span><img class="wordmark" src="vector/wordmark/rachis-logo-adaptive.svg" alt="Adaptive Rachis wordmark"><img class="symbol" src="vector/favicon/rachis-favicon-adaptive.svg" alt="Adaptive favicon"></article>`).join('')}
-</div></section><section><h2>Web icons</h2><p><a href="raster/icons/favicon.svg">Adaptive favicon</a> · <a href="raster/icons/favicon.ico">ICO fallback</a> · <a href="raster/icons/apple-touch-icon.png">Apple touch icon</a> · <a href="raster/icons/site.webmanifest">Web manifest</a></p></section></html>\n`;
+function readmeGallery() {
+  const header = `## Logo gallery
+
+Each preview links to its SVG. The PNG previews include a white or black background so every scheme stays visible in both GitHub themes.
+
+| Color scheme | ${config.assets.map(({ description }) => description).join(' | ')} |
+| --- | ${config.assets.map(() => '---').join(' | ')} |`;
+  const rows = colorSchemes.map((scheme) => {
+    const images = config.assets.map((asset) => {
+      const background = isDark(scheme) ? 'black' : 'white';
+      const width = asset.widths.find((value) => value >= (asset.type === 'wordmark' ? 400 : 128));
+      const svg = `vector/${asset.type}/${asset.name}-${scheme}.svg`;
+      const png = `raster/${asset.type}/${scheme}/${background}/${asset.name}-${width}.png`;
+      return `<a href="${svg}"><img src="${png}" width="${asset.type === 'wordmark' ? 240 : 64}" alt="${asset.description}, ${scheme}"></a>`;
+    });
+    return `| \`${scheme}\` | ${images.join(' | ')} |`;
+  });
+  const adaptive = config.assets.map((asset) => `[${asset.type}](vector/${asset.type}/${asset.name}-adaptive.svg)`).join(' · ');
+  return `${header}\n${rows.join('\n')}\n\nAdaptive SVGs: ${adaptive}.\n\nWeb icons: [adaptive favicon](raster/icons/favicon.svg) · [ICO fallback](raster/icons/favicon.ico) · [Apple touch icon](raster/icons/apple-touch-icon.png) · [web manifest](raster/icons/site.webmanifest).`;
+}
+
+function updateReadme(readme) {
+  const start = '<!-- BEGIN GENERATED LOGO GALLERY -->';
+  const end = '<!-- END GENERATED LOGO GALLERY -->';
+  const first = readme.indexOf(start);
+  const last = readme.indexOf(end, first + start.length);
+  if (first < 0 || last < 0) throw new Error('README.md is missing the logo gallery markers');
+  return readme.slice(0, first + start.length) + `\n\n${readmeGallery()}\n\n` + readme.slice(last);
 }
 
 try {
@@ -102,7 +109,7 @@ try {
     background_color: config.icons.appBackground, theme_color: iconAsset.lightmode.stroke,
     icons: [192, 512].map((size) => ({ src: `icon-${size}.png`, sizes: `${size}x${size}`, type: 'image/png', purpose: 'any' })),
   }, null, 2) + '\n');
-  await save('preview.html', gallery());
+  await save('README.md', updateReadme(await readFile(path.join(root, 'README.md'), 'utf8')));
 
   const files = [];
   for (const filename of [...entries].sort()) {
@@ -113,7 +120,7 @@ try {
 
   const archive = {};
   // Stable ordering and timestamps make repeated builds byte-for-byte identical.
-  const inputs = [...new Set(['README.md', 'logos.json', 'sources/README.md', config.referencePng, ...config.assets.map(({ source }) => source)])];
+  const inputs = [...new Set(['logos.json', 'sources/README.md', config.referencePng, ...config.assets.map(({ source }) => source)])];
   for (const filename of [...entries, ...inputs].sort()) {
     archive[`rachis-logos/${filename}`] = [await readFile(path.join(entries.includes(filename) ? stage : root, filename)),
       { mtime: new Date(2020, 0, 1) }];
@@ -125,7 +132,7 @@ try {
     await rm(path.join(root, filename), { recursive: true, force: true });
     await rename(path.join(stage, filename), path.join(root, filename));
   }
-  console.log(`Built ${entries.length} files. Open preview.html to browse the results.`);
+  console.log(`Built ${entries.length} files. Browse the logo gallery in README.md.`);
 } finally {
   await rm(stage, { recursive: true, force: true });
 }
